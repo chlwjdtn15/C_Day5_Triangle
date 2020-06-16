@@ -1,6 +1,16 @@
 
-void print_tri() {
+void print_tri(int n) {
 
+int a;
+
+
+
+for ( a = 1; a < n; a++) {
+    printf(" ");
+    
+  }
+  
+  printf("\n*");
 }
 
 int main() {
